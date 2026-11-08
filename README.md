@@ -45,4 +45,3 @@ Simulace topného tělesa pomocí LED
 ## Zdroje
 
 
-Jako asistenční nástroj byl využit ChatGPT
