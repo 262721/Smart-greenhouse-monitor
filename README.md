@@ -29,6 +29,7 @@ Simulace topného tělesa pomocí LED
 ### Ventilátor
 
 ## Zapojení
+<img width="850" height="615" alt="image" src="" />
 ### Schéma zapojení
 
 
