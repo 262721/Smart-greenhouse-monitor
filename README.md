@@ -27,6 +27,9 @@ Simulace topného tělesa pomocí LED
 ### Raspberry Pi Pico W1
 ### OLED displej
 ### Ventilátor
+### NEOPIXEL STRIP
+### Relé
+### Zdroj 12V
 
 ## Zapojení
 <img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/block-diagram(2).jpg" />
