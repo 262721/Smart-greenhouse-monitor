@@ -24,7 +24,7 @@ Simulace topného tělesa pomocí LED
 ## Seznam hardwarových komponentů
 
 ### BME280
-### Raspberry Pi Pico W2
+### Raspberry Pi Pico W1
 ### OLED displej
 ### Ventilátor
 
