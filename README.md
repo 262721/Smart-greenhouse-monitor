@@ -32,11 +32,13 @@ Simulace topného tělesa pomocí LED
 ### Zdroj 12V
 
 ## Zapojení
+### Blokové schéma
 <img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/block-diagram(2).jpg" />
-### Schéma zapojení
-
-
+### 
 ### Schéma zapojení v nepájivém poli
+
+### Spínání ventilátoru
+
 
 
 
