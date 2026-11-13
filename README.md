@@ -38,6 +38,7 @@ Simulace topného tělesa pomocí LED
 ### Schéma zapojení v nepájivém poli
 
 ### Spínání ventilátoru
+<img width="850" height="615" alt="image" src="[https://github.com/262721/Smart-greenhouse-monitor/blob/main/block-diagram(2).jpg](https://github.com/262721/Smart-greenhouse-monitor/blob/main/spinac_schema.jpg)" />
 
 
 
