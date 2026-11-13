@@ -40,6 +40,8 @@ Simulace topného tělesa pomocí LED
 ### Spínání ventilátoru
 <img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/spinac_schema.jpg" />
 
+https://github.com/262721/Smart-greenhouse-monitor/blob/main/spinac_sim_dioda.jpg
+
 
 
 
