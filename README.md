@@ -58,7 +58,21 @@ Bez diody
 
 <img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/spinac_sim_bezdiody.jpg" />
 
-Software: verze programu
+
+
+Software: 
+
+Logika programu
+Program běží v jedné hlavní smyčce, která se opakuje přibližně každých 5 ms. V každém průchodu zkontroluje tlačítko joysticku, a pokud je na řadě, přečte joystick a senzor, rozhodne o zapnutí topení a ventilátoru a podle potřeby překreslí displej. Čtení joysticku řídí časovač, který se spouští každých 100 ms. Obsluha přerušení od časovače ale musí být co nejkratší, proto pouze nastaví příznak `sample_due`. Skutečnou práci pak udělá hlavní smyčka, jakmile příznak uvidí. Senzor BME280 se čte jednou za sekundu podle měření času pomocí `ticks_ms`, protože teplota ani vlhkost se nemění rychleji a častější čtení by jen zdržovalo smyčku.
+Displej se nepřekresluje v každém průchodu, ale jen když se něco změnilo. K tomu slouží příznak `needs_redraw`, který se nastaví při stisku tlačítka, změně cílové hodnoty, novém měření nebo zapnutí či vypnutí topení a ventilátoru. Přenos celé obrazovky po I2C je totiž pomalý, a když se displej překresloval pořád, smyčka byla většinu času zaneprázdněná a program přehlížel stisky tlačítka. Pomohlo také zvýšení rychlosti I2C ze 100 kHz na 400 kHz, kdy je překreslení asi čtyřikrát rychlejší.
+Joystick se ovládá takto. Tlačítko přepíná čtyři režimy: teplota s krokem 1, teplota s krokem 0,1, vlhkost s krokem 1 a vlhkost s krokem 0,1. Osa X mění cílovou hodnotu vybraného režimu. Při vychýlení se hodnota změní hned, a pokud držíme páčku, pak znovu každých 300 ms, takže se hodnoty dají nastavovat přesně a nerostou příliš rychle. Hodnota se vždy omezí na povolený rozsah a zaokrouhlí na jedno desetinné místo, aby se nenasčítaly chyby desetinných čísel. Hodnoty z ADC se navíc průměrují z osmi čtení, aby šum nezpůsobil falešné pohyby.
+Osa Y mění barvu NeoPixel pásku. Pohyb nahoru nebo dolů přepne na další nebo předchozí barvu (bílá, modrá, červená, zelená) a po poslední barvě následuje zase první. Jedno vychýlení způsobí jednu změnu, před další změnou se musí páčka vrátit do středu, jinak by barvy při držení rychle „protáčely“.
+
+<img width="850" alt="Diagram hlavní smyčky" src="diagram_hlavni_smycky.png" />
+
+
+
+verze programu
 
 Verze bez WiFi (`main_no_wifi.py`) funguje samostatně bez sítě. Teplotu a vlhkost měří BME280 a zobrazuje je na OLED displeji, cílové hodnoty se nastavují joystickem (tlačítko přepíná mezi teplotou a vlhkostí s krokem 1 nebo 0,1, osa Y mění barvu NeoPixel pásku). Relé topení se zapne, když teplota klesne o 2 °C pod cílovou hodnotu, a vypne se o 2 °C nad ní, ventilátor pracuje zrcadlově. Program se spustí okamžitě a nepotřebuje žádné další soubory.
 
