@@ -63,9 +63,6 @@ Bez diody
 
 
 
-## Software
-### Cíl
-### Postup vývoje
 
 
 
