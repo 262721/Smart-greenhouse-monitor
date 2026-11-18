@@ -19,7 +19,7 @@ RGB LED k indikaci aktuálních funkcí
 
 Ovládání větráku
 
-Simulace topného tělesa pomocí LED
+Simulace topného tělesa pomocí relé 
 
 ## Seznam hardwarových komponentů
 
