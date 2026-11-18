@@ -70,5 +70,5 @@ Bez diody
 
 
 ## Zdroje
-
+2N7000 datasheet - https://datasheet4u.com/download/1134507/2N7000.html
 
