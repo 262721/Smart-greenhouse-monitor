@@ -75,7 +75,7 @@ Osa Y mění barvu NeoPixel pásku. Pohyb nahoru nebo dolů přepne na další n
 
 
 
-verze programu
+Verze programu
 
 Verze bez WiFi (`main_no_wifi.py`) funguje samostatně bez sítě. Teplotu a vlhkost měří BME280 a zobrazuje je na OLED displeji, cílové hodnoty se nastavují joystickem (tlačítko přepíná mezi teplotou a vlhkostí s krokem 1 nebo 0,1, osa Y mění barvu NeoPixel pásku). Relé topení se zapne, když teplota klesne o 2 °C pod cílovou hodnotu, a vypne se o 2 °C nad ní, ventilátor pracuje zrcadlově. Program se spustí okamžitě a nepotřebuje žádné další soubory.
 
