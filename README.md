@@ -33,7 +33,7 @@ Simulace topného tělesa pomocí relé
 
 ## Zapojení
 ### Blokové schéma
-<img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/block-diagram(2).jpg" />
+<img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/diagramDE2.drawio (5).png" />
 ### 
 ### Schéma zapojení v nepájivém poli
 
