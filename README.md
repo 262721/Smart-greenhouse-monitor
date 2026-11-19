@@ -31,6 +31,10 @@ Simulace topného tělesa pomocí relé
 ### Relé
 ### Zdroj 12V
 
+## Seznam hardwarových komponentů
+
+| Komponenta | Účel v projektu | Odkaz |
+| :--- | :--- | :--- |
 | **Raspberry Pi Pico W** | Řídicí mikrokontroler s WiFi | [Stránka součástky](SEM_VLOZ_ODKAZ) |
 | **BME280** | Senzor teploty a vlhkosti (I2C) | [Stránka součástky](SEM_VLOZ_ODKAZ) |
 | **OLED displej** | Zobrazování naměřených a cílových hodnot | [Stránka součástky](SEM_VLOZ_ODKAZ) |
