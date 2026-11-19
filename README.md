@@ -35,7 +35,7 @@ Simulace topného tělesa pomocí relé
 | **Relé modul** | Spínání topného tělesa | [Stránka součástky](SEM_VLOZ_ODKAZ) |
 | **Zdroj 12 V** | Napájení ventilátoru / výkonové části | [Stránka součástky](SEM_VLOZ_ODKAZ) |
 | **Tranzistor 2N7000** | N-MOSFET pro spínání ventilátoru | [Datasheet](https://datasheet4u.com/download/1134507/2N7000.html) |
-| **Dioda 1N4148** | Ochranná antiparalelní dioda k ventilátoru | [Stránka součástky](SEM_VLOZ_ODKAZ) |
+| **Dioda 1N4148** | Ochranná antiparalelní dioda k ventilátoru | [Stránka součástky](https://www.alldatasheet.com/html-pdf/15021/PHILIPS/1N4148/245/1/1N4148.html) |
 
 ## Zapojení
 ### Blokové schéma
