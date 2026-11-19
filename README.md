@@ -1,5 +1,5 @@
 
-# SMART_GREENHOUSE_MONITOR
+# Chytrý skleník
 
 ### Členové týmu
 * Vítek Borovka
@@ -26,8 +26,8 @@ Simulace topného tělesa pomocí relé
 
 | Komponenta | Účel v projektu | Odkaz |
 | :--- | :--- | :--- |
-| **Raspberry Pi Pico W** | Řídicí mikrokontroler s WiFi | [Stránka součástky](SEM_VLOZ_ODKAZ) |
-| **BME280** | Senzor teploty a vlhkosti (I2C) | [Stránka součástky](SEM_VLOZ_ODKAZ) |
+| **Raspberry Pi Pico W** | Řídicí mikrokontroler s WiFi | [Stránka součástky](https://pip-assets.raspberrypi.com/categories/686-raspberry-pi-pico-w/documents/RP-008312-DS-2-pico-w-datasheet.pdf) |
+| **BME280** | Senzor teploty a vlhkosti (I2C) | [Stránka součást](https://www.alldatasheet.com/datasheet-pdf/pdf/1132060/BOSCH/BME280.html) |
 | **OLED displej** | Zobrazování naměřených a cílových hodnot | [Stránka součástky](SEM_VLOZ_ODKAZ) |
 | **Joystick** | Nastavování prahových hodnot a barev | [Stránka součástky](SEM_VLOZ_ODKAZ) |
 | **Ventilátor (12 V)** | Ochlazování / odvětrávání skleníku | [Stránka součástky](SEM_VLOZ_ODKAZ) |
