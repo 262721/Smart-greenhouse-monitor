@@ -31,6 +31,17 @@ Simulace topného tělesa pomocí relé
 ### Relé
 ### Zdroj 12V
 
+| **Raspberry Pi Pico W** | Řídicí mikrokontroler s WiFi | [Stránka součástky](SEM_VLOZ_ODKAZ) |
+| **BME280** | Senzor teploty a vlhkosti (I2C) | [Stránka součástky](SEM_VLOZ_ODKAZ) |
+| **OLED displej** | Zobrazování naměřených a cílových hodnot | [Stránka součástky](SEM_VLOZ_ODKAZ) |
+| **Joystick** | Nastavování prahových hodnot a barev | [Stránka součástky](SEM_VLOZ_ODKAZ) |
+| **Ventilátor (12 V)** | Ochlazování / odvětrávání skleníku | [Stránka součástky](SEM_VLOZ_ODKAZ) |
+| **NeoPixel Strip** | RGB LED indikace stavu | [Stránka součástky](SEM_VLOZ_ODKAZ) |
+| **Relé modul** | Spínání topného tělesa | [Stránka součástky](SEM_VLOZ_ODKAZ) |
+| **Zdroj 12 V** | Napájení ventilátoru / výkonové části | [Stránka součástky](SEM_VLOZ_ODKAZ) |
+| **Tranzistor 2N7000** | N-MOSFET pro spínání ventilátoru | [Datasheet](https://datasheet4u.com/download/1134507/2N7000.html) |
+| **Dioda 1N4148** | Ochranná antiparalelní dioda k ventilátoru | [Stránka součástky](SEM_VLOZ_ODKAZ) |
+
 ## Zapojení
 ### Blokové schéma
 <img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/obrazky/diagramDE2.drawio%20(5)%20(1).png" />
