@@ -21,15 +21,6 @@ Ovládání větráku
 
 Simulace topného tělesa pomocí relé 
 
-## Seznam hardwarových komponentů
-
-### BME280
-### Raspberry Pi Pico W1
-### OLED displej
-### Ventilátor
-### NEOPIXEL STRIP
-### Relé
-### Zdroj 12V
 
 ## Seznam hardwarových komponentů
 
