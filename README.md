@@ -33,12 +33,12 @@ Simulace topného tělesa pomocí relé
 
 ## Zapojení
 ### Blokové schéma
-<img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/diagramDE2.drawio (5).png" />
+<img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/obrazky/diagramDE2.drawio%20(5)%20(1).png" />
 ### 
 ### Schéma zapojení v nepájivém poli
 
 ### Spínání ventilátoru
-<img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/spinac_schema.jpg" />
+<img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/obrazky/spinac_schema.jpg" />
 
 Pro spínání ventilátoru byl využit N-MOSFET tranzistor 2N7000. Z datasheetu lze vyčíst maximální Ugs th = 3V, takže v případě přivedení log.1 (3.3V) na Gate dojde tak k dostatečnému otevření a sepnutí tranzistoru.
 
@@ -52,11 +52,11 @@ Antiparalelně k ventilátoru byla zapojeno dioda 1N4148. Tato dioda slouží k 
 
 S diodou
 
-<img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/spinac_sim_dioda.jpg" />
+<img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/obrazky/spinac_sim_dioda%20(1).jpg" />
 
 Bez diody
 
-<img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/spinac_sim_bezdiody.jpg" />
+<img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/obrazky/spinac_sim_bezdiody.jpg" />
 
 
 
@@ -71,7 +71,7 @@ Joystick se ovládá takto. Tlačítko přepíná čtyři režimy: teplota s kro
 
 Osa Y mění barvu NeoPixel pásku. Pohyb nahoru nebo dolů přepne na další nebo předchozí barvu (bílá, modrá, červená, zelená) a po poslední barvě následuje zase první. Jedno vychýlení způsobí jednu změnu, před další změnou se musí páčka vrátit do středu, jinak by barvy při držení rychle „protáčely“.
 
-<img width="850" alt="Diagram hlavní smyčky" src="diagram_hlavni_smycky.png" />
+<img width="850" alt="Diagram hlavní smyčky" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/obrazky/diagram_hlavni_smycky.png" />
 
 
 
