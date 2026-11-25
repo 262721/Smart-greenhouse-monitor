@@ -65,7 +65,7 @@ S diodou
 <img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/obrazky/spinac_sim_dioda%20(1).jpg" />
 
 
-## Seznam hardwarových komponentů 
+## Software
 
 Logika programu
 
