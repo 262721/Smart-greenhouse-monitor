@@ -56,14 +56,13 @@ Jako náhradní schéma ventilátoru pro simulaci byla použita sériová kombin
 
 Antiparalelně k ventilátoru byla zapojeno dioda 1N4148. Tato dioda slouží k ochraně tranzistoru, neboť při vypínání dochází na cívce k uvolnění akumulované energie a vzniku napěťových špiček, které by mohly tranzistor poškodit. Dioda slouží k vybití toho proudu viz. simulace.
 
-S diodou
-
-<img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/obrazky/spinac_sim_dioda%20(1).jpg" />
-
 Bez diody
 
 <img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/obrazky/spinac_sim_bezdiody.jpg" />
 
+S diodou
+
+<img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/obrazky/spinac_sim_dioda%20(1).jpg" />
 
 
 Software: 
