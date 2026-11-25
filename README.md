@@ -40,10 +40,8 @@ Simulace topného tělesa pomocí relé
 ## Zapojení
 ### Blokové schéma
 <img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/obrazky/diagramDE2.drawio%20(5)%20(1).png" />
-### 
-### Schéma zapojení v nepájivém poli
 
-### Spínání ventilátoru
+### Realizace spínání ventilátoru
 <img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/obrazky/spinac_schema.jpg" />
 
 Pro spínání ventilátoru byl využit N-MOSFET tranzistor 2N7000. Z datasheetu lze vyčíst maximální Ugs th = 3V, takže v případě přivedení log.1 (3.3V) na Gate dojde tak k dostatečnému otevření a sepnutí tranzistoru.
