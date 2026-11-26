@@ -39,7 +39,7 @@ Simulace topného tělesa pomocí relé
 
 ## Zapojení
 ### Blokové schéma
-<img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/obrazky/diagramDE2.drawio%20(5)%20(1).png" />
+<img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/obrazky/diagramDE2.drawio.png" />
 
 ### Realizace spínání ventilátoru
 <img width="850" height="615" alt="image" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/obrazky/spinac_schema.jpg" />
