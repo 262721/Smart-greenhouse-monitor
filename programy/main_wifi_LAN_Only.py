@@ -493,23 +493,26 @@ def start_server(port):
     return server
 
 
-def send_to_thingspeak(key, temperature, humidity, heating, cooling):
+def send_to_thingspeak(key, temperature, humidity, heating, cooling, humidifying):
     """
     @brief  Send the values to ThingSpeak (one way, nothing is read back).
     @details Fields of the channel: 1 = temperature, 2 = humidity, 3 = heater,
-             4 = fan. The request blocks for a moment (the internet is slower
-             than the room Wi-Fi), so it is called only every UPLOAD_PERIOD_MS.
-             The URL is never printed, because the API key is in it.
+             4 = fan, 5 = humidifier. The request blocks for a moment (the internet
+             is slower than the room Wi-Fi), so it is called only every
+             UPLOAD_PERIOD_MS. The URL is never printed, because the API key is
+             in it.
     @param  key          Write API key of the channel.
     @param  temperature  Measured temperature in degrees C.
     @param  humidity     Measured humidity in percent.
     @param  heating      True while the heater is on.
     @param  cooling      True while the fan is on.
+    @param  humidifying  True while the humidifier is on.
     @return True if ThingSpeak accepted the values, False otherwise.
     """
     url = (f"{THINGSPEAK_URL}?api_key={key}"
            f"&field1={temperature:.1f}&field2={humidity:.1f}"
-           f"&field3={1 if heating else 0}&field4={1 if cooling else 0}")
+           f"&field3={1 if heating else 0}&field4={1 if cooling else 0}"
+           f"&field5={1 if humidifying else 0}")
     try:
         response = urequests.get(url)
         entry = response.text.strip()   # number of the new entry, "0" = rejected
@@ -751,7 +754,7 @@ def main():
                             print("Web server error:", error)
                     if cloud_key:
                         send_to_thingspeak(cloud_key, temperature, humidity,
-                                           heating, cooling)
+                                           heating, cooling, humidifying)
                 else:
                     # Wi-Fi is gone, ask for a new connection and try again next time
                     print("Wi-Fi lost, reconnecting...")
