@@ -35,6 +35,7 @@ Simulace topného tělesa pomocí relé
 | **Relé modul** | Spínání topného tělesa | [Stránka součástky](https://www.alldatasheet.com/datasheet-pdf/pdf/45765/SIEMENS/SRD00111Z.html) |
 | **Tranzistor 2N7000** | N-MOSFET pro spínání ventilátoru | [Datasheet](https://datasheet4u.com/download/1134507/2N7000.html) |
 | **Dioda 1N4148** | Ochranná antiparalelní dioda k ventilátoru | [Stránka součástky](https://www.alldatasheet.com/html-pdf/15021/PHILIPS/1N4148/245/1/1N4148.html) |
+| **zdroj 12 V** | Napájení ventilátoru |
 ### Specifikace zdroje 12 V
 odečteno ze zdroje
 | Parametr | Hodnota |
