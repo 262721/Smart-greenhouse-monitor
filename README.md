@@ -7,7 +7,8 @@
 * Jakub Kotačka
 
 ---
-
+## Postup instalace
+Jednotlivé komponenty propojte podle blokového schématu.
 ## Základní vize projektu
 Měření vlhkosti a teploty pomocí BME280
 
