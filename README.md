@@ -33,9 +33,19 @@ Simulace topného tělesa pomocí relé
 | **Ventilátor (12 V)** | Ochlazování / odvětrávání skleníku | [Stránka součástky](https://www.sunonusa.com/wp-content/uploads/2026/05/HA60151V4-1000U-A99-D06092600G-01-0-REF.pdf) |
 | **NeoPixel Strip** | RGB LED indikace stavu | [Stránka součástky](https://www.laskakit.cz/en/led-pasek-neopixel-ws2812b-60led-m-ip30-5m-bily/?utm_source=google&utm_medium=cpc&utm_campaign=1_PMax_%5BCZ%5D_Top_tROAS_550&utm_id=18587021915&gad_source=1&gad_campaignid=21607691975&gbraid=0AAAAADPjitK7LgKpbm1zIEF-jsz7oPR4J&gclid=CjwKCAiAzp_YBhAJEiwASf8kHVnY1mypuouzHotWObc_o4AugHZN1VRcyJmDu7zR0r7AVb-Zt7iruhoC6xsQAvD_BwE#relatedFiles) |
 | **Relé modul** | Spínání topného tělesa | [Stránka součástky](https://www.alldatasheet.com/datasheet-pdf/pdf/45765/SIEMENS/SRD00111Z.html) |
-| **Zdroj 12 V** | Napájení ventilátoru / výkonové části | [Stránka součástky](#specifikace-zdroje-12-v) |
 | **Tranzistor 2N7000** | N-MOSFET pro spínání ventilátoru | [Datasheet](https://datasheet4u.com/download/1134507/2N7000.html) |
 | **Dioda 1N4148** | Ochranná antiparalelní dioda k ventilátoru | [Stránka součástky](https://www.alldatasheet.com/html-pdf/15021/PHILIPS/1N4148/245/1/1N4148.html) |
+### Specifikace zdroje 12 V
+odečteno ze zdroje
+| Parametr | Hodnota |
+| :--- | :--- |
+| **Výrobce** | Minwa Electronics |
+| **Model** | MW9115GS |
+| **Typ zdroje** | Stabilizovaný síťový adaptér (do zásuvky) |
+| **Vstupní napětí a příkon** | 230 V AC / 50 Hz (max. 43 W) |
+| **Výstupní napětí (volitelné)** | 3 V / 4,5 V / 6 V / 7,5 V / 9 V / 12 V DC |
+| **Max. výstupní proud** | 1,5 A (1500 mA) |
+| **Max. výstupní výkon** | 18 W |
 
 ## Zapojení
 ### Blokové schéma
@@ -101,14 +111,4 @@ Verze LAN only [`main_wifi_LAN_Only.py`](programy/main_wifi_LAN_Only.py)  má v�
 
 
 
-### Specifikace zdroje 12 V
-odečteno ze zdroje
-| Parametr | Hodnota |
-| :--- | :--- |
-| **Výrobce** | Minwa Electronics |
-| **Model** | MW9115GS |
-| **Typ zdroje** | Stabilizovaný síťový adaptér (do zásuvky) |
-| **Vstupní napětí a příkon** | 230 V AC / 50 Hz (max. 43 W) |
-| **Výstupní napětí (volitelné)** | 3 V / 4,5 V / 6 V / 7,5 V / 9 V / 12 V DC |
-| **Max. výstupní proud** | 1,5 A (1500 mA) |
-| **Max. výstupní výkon** | 18 W |
+
