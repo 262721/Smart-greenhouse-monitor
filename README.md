@@ -28,10 +28,10 @@ Simulace topného tělesa pomocí relé
 | :--- | :--- | :--- |
 | **Raspberry Pi Pico W** | Řídicí mikrokontroler s WiFi | [Stránka součástky](https://pip-assets.raspberrypi.com/categories/686-raspberry-pi-pico-w/documents/RP-008312-DS-2-pico-w-datasheet.pdf) |
 | **BME280** | Senzor teploty a vlhkosti (I2C) | [Stránka součást](https://www.alldatasheet.com/datasheet-pdf/pdf/1132060/BOSCH/BME280.html) |
-| **OLED displej** | Zobrazování naměřených a cílových hodnot | [Stránka součástky](SEM_VLOZ_ODKAZ) |
-| **Joystick** | Nastavování prahových hodnot a barev | [Stránka součástky](SEM_VLOZ_ODKAZ) |
+| **OLED displej** | Zobrazování naměřených a cílových hodnot | [Stránka součástky](https://dratek.cz/arduino-platforma/1978-0-96-i2c-oled-displej-0-96-128x64-zluty-modry.html?gad_source=1&gad_campaignid=17190055571&gbraid=0AAAAACVG_WcN12zaul8H1it_VvzY82czx&gclid=CjwKCAiAzp_YBhAJEiwASf8kHaf8aFN_GnqUJwFkXEIVuhzIZ_ozv6-NrM1MG3Is2BUpLwQ1A7_laxoCnTMQAvD_BwE) |
+| **Joystick** | Nastavování prahových hodnot a barev | [Stránka součástky](https://manuals.plus/ae/1005005073051206) |
 | **Ventilátor (12 V)** | Ochlazování / odvětrávání skleníku | [Stránka součástky](https://www.sunonusa.com/wp-content/uploads/2026/05/HA60151V4-1000U-A99-D06092600G-01-0-REF.pdf) |
-| **NeoPixel Strip** | RGB LED indikace stavu | [Stránka součástky](SEM_VLOZ_ODKAZ) |
+| **NeoPixel Strip** | RGB LED indikace stavu | [Stránka součástky](https://www.laskakit.cz/en/led-pasek-neopixel-ws2812b-60led-m-ip30-5m-bily/?utm_source=google&utm_medium=cpc&utm_campaign=1_PMax_%5BCZ%5D_Top_tROAS_550&utm_id=18587021915&gad_source=1&gad_campaignid=21607691975&gbraid=0AAAAADPjitK7LgKpbm1zIEF-jsz7oPR4J&gclid=CjwKCAiAzp_YBhAJEiwASf8kHVnY1mypuouzHotWObc_o4AugHZN1VRcyJmDu7zR0r7AVb-Zt7iruhoC6xsQAvD_BwE#relatedFiles) |
 | **Relé modul** | Spínání topného tělesa | [Stránka součástky](https://www.alldatasheet.com/datasheet-pdf/pdf/45765/SIEMENS/SRD00111Z.html) |
 | **Zdroj 12 V** | Napájení ventilátoru / výkonové části | [Stránka součástky](SEM_VLOZ_ODKAZ) |
 | **Tranzistor 2N7000** | N-MOSFET pro spínání ventilátoru | [Datasheet](https://datasheet4u.com/download/1134507/2N7000.html) |
