@@ -30,9 +30,9 @@ Simulace topného tělesa pomocí relé
 | **BME280** | Senzor teploty a vlhkosti (I2C) | [Stránka součást](https://www.alldatasheet.com/datasheet-pdf/pdf/1132060/BOSCH/BME280.html) |
 | **OLED displej** | Zobrazování naměřených a cílových hodnot | [Stránka součástky](SEM_VLOZ_ODKAZ) |
 | **Joystick** | Nastavování prahových hodnot a barev | [Stránka součástky](SEM_VLOZ_ODKAZ) |
-| **Ventilátor (12 V)** | Ochlazování / odvětrávání skleníku | [Stránka součástky](SEM_VLOZ_ODKAZ) |
+| **Ventilátor (12 V)** | Ochlazování / odvětrávání skleníku | [Stránka součástky](https://www.sunonusa.com/wp-content/uploads/2026/05/HA60151V4-1000U-A99-D06092600G-01-0-REF.pdf) |
 | **NeoPixel Strip** | RGB LED indikace stavu | [Stránka součástky](SEM_VLOZ_ODKAZ) |
-| **Relé modul** | Spínání topného tělesa | [Stránka součástky](SEM_VLOZ_ODKAZ) |
+| **Relé modul** | Spínání topného tělesa | [Stránka součástky](https://www.alldatasheet.com/datasheet-pdf/pdf/45765/SIEMENS/SRD00111Z.html) |
 | **Zdroj 12 V** | Napájení ventilátoru / výkonové části | [Stránka součástky](SEM_VLOZ_ODKAZ) |
 | **Tranzistor 2N7000** | N-MOSFET pro spínání ventilátoru | [Datasheet](https://datasheet4u.com/download/1134507/2N7000.html) |
 | **Dioda 1N4148** | Ochranná antiparalelní dioda k ventilátoru | [Stránka součástky](https://www.alldatasheet.com/html-pdf/15021/PHILIPS/1N4148/245/1/1N4148.html) |
