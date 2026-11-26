@@ -101,7 +101,7 @@ Verze LAN only (main_wifi_LAN_Only.py) má všechny funkce předchozí verze a n
 
 ## Zdroje
 ### Specifikace zdroje 12 V
-
+odečteno ze zdroje
 | Parametr | Hodnota |
 | :--- | :--- |
 | **Výrobce** | Minwa Electronics |
