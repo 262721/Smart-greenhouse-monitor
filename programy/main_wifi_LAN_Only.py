@@ -1,5 +1,5 @@
 """
-@file    main_wifi.py
+@file    main_wifi_LAN_Only.py
 @brief   Smart Greenhouse Monitor - LAN version (control on the local network, optional ThingSpeak upload)
 
 @details
