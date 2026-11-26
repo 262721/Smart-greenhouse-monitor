@@ -65,7 +65,7 @@ S diodou
 
 ## Software
 
-# Logika programu
+### Logika programu
 
 Program běží v jedné hlavní smyčce, která se opakuje přibližně každých 5 ms. V každém průchodu zkontroluje resetovací tlačítko a tlačítko joysticku, a pokud je na řadě, přečte joystick a senzor, vyhodnotí regulaci topení, ventilátoru i zvlhčovače (druhého relé) a podle potřeby překreslí displej. Stisk resetovacího tlačítka zobrazí hlášku na displeji, ukončí smyčku a v bloku "finally" vypne topení, ventilátor, zvlhčovač i LED pásek, zruší časovač a spustí program znovu od začátku.
 
@@ -79,7 +79,7 @@ Joystick se ovládá takto: tlačítko přepíná čtyři režimy (teplota s kro
 
 
 
-# Verze programu
+### Verze programu
 
 Verze bez WiFi [`main_no_wifi.py`](programy/main_no_wifi.py) funguje samostatně bez sítě. Teplotu a vlhkost měří BME280 a zobrazuje je na OLED displeji. Cílové hodnoty se nastavují joystickem (tlačítko přepíná mezi teplotou a vlhkostí s krokem 1 nebo 0,1, osa Y mění barvu NeoPixel pásku). Relé topení se zapne, když teplota klesne o 2 °C pod cílovou hodnotu, a vypne se o 2 °C nad ní, ventilátor pracuje zrcadlově. Zvlhčovač (relé na GP19) se zapne, když vlhkost klesne o 5 % pod cílovou hodnotu, a vypne se o 5 % nad ní. Program se spustí okamžitě a nepotřebuje WiFi ani soubory [`wifi_utils.py`](moduly/wifi_utils.py) a [`config.py`](moduly/config.py).
 
