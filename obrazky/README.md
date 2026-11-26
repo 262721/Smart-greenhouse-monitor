@@ -1,7 +1,7 @@
 # Galerie obrázků
 
 ### Diagram DE2
-![Diagram DE2](<diagramDE2.drawio (5) (1).png>)
+![Diagram DE2](<diagramDE2.drawio.png>)
 
 ### Diagram hlavní smyčky
 ![Diagram hlavní smyčky](diagram_hlavni_smycky.png)
