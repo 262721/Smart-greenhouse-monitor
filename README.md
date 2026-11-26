@@ -100,7 +100,7 @@ Verze LAN only [`main_wifi_LAN_Only.py`](programy/main_wifi_LAN_Only.py)  má v�
 
 
 
-## Zdroje
+
 ### Specifikace zdroje 12 V
 odečteno ze zdroje
 | Parametr | Hodnota |
