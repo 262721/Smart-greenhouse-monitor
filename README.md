@@ -65,7 +65,7 @@ S diodou
 
 ## Software
 
-Logika programu
+#Logika programu
 
 Program běží v jedné hlavní smyčce, která se opakuje přibližně každých 5 ms. V každém průchodu zkontroluje tlačítko joysticku, a pokud je na řadě, přečte joystick a senzor, rozhodne o zapnutí topení a ventilátoru a podle potřeby překreslí displej. Čtení joysticku řídí časovač, který se spouští každých 100 ms. Obsluha přerušení od časovače ale musí být co nejkratší, proto pouze nastaví příznak `sample_due`. Skutečnou práci pak udělá hlavní smyčka, jakmile příznak uvidí. Senzor BME280 se čte jednou za sekundu podle měření času pomocí `ticks_ms`, protože teplota ani vlhkost se nemění rychleji a častější čtení by jen zdržovalo smyčku.
 
@@ -78,7 +78,7 @@ Osa Y mění barvu NeoPixel pásku. Pohyb nahoru nebo dolů přepne na další n
 
 
 
-Verze programu
+#Verze programu
 
 Verze bez WiFi (`main_no_wifi.py`) funguje samostatně bez sítě. Teplotu a vlhkost měří BME280 a zobrazuje je na OLED displeji, cílové hodnoty se nastavují joystickem (tlačítko přepíná mezi teplotou a vlhkostí s krokem 1 nebo 0,1, osa Y mění barvu NeoPixel pásku). Relé topení se zapne, když teplota klesne o 2 °C pod cílovou hodnotu, a vypne se o 2 °C nad ní, ventilátor pracuje zrcadlově. Program se spustí okamžitě a nepotřebuje žádné další soubory.
 
