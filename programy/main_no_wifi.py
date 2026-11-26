@@ -1,5 +1,5 @@
 """
-@file    main.py
+@file    main_no_wifi.py
 @brief   Smart Greenhouse Monitor - version without Wi-Fi (local control only)
 
 @details
