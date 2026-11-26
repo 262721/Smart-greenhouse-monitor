@@ -75,7 +75,7 @@ Displej se nepřekresluje v každém průchodu, ale jen když se něco změnilo.
 
 Joystick se ovládá takto: tlačítko přepíná čtyři režimy (teplota s krokem 1, teplota s krokem 0,1, vlhkost s krokem 1 a vlhkost s krokem 0,1). Osa X mění cílovou hodnotu vybraného režimu. Při vychýlení se hodnota změní hned, a pokud držíme páčku, pak znovu každých 300 ms, takže se hodnoty dají nastavovat přesně a nerostou příliš rychle. Hodnota se vždy omezí na povolený rozsah a zaokrouhlí na jedno desetinné místo, aby se nenasčítaly chyby desetinných čísel. Hodnoty z ADC se navíc průměrují z osmi čtení, aby šum nezpůsobil falešné pohyby.   Osa Y mění barvu NeoPixel pásku. Pohyb nahoru nebo dolů přepne na další nebo předchozí barvu (bílá, modrá, červená, zelená) a po poslední barvě následuje zase první. Jedno vychýlení způsobí jednu změnu, před další změnou se musí páčka vrátit do středu, jinak by se barvy při držení rychle „protáčely“.
 
-<img width="850" alt="Diagram hlavní smyčky" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/obrazky/diagram_hlavni_smycky.png" />
+<img width="850" alt="Diagram hlavní smyčky" src="https://github.com/262721/Smart-greenhouse-monitor/blob/main/obrazky/diagram_hlavni_smycky.jpg" />
 
 
 
