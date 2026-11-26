@@ -106,8 +106,8 @@ Verze LAN only (main_wifi_LAN_Only.py) má všechny funkce předchozí verze a n
 | :--- | :--- |
 | **Výrobce** | Minwa Electronics |
 | **Model** | MW9115GS |
-| **Typ zdroje** | Stabilizovaný spínaný síťový adaptér (do zásuvky) |
-| **Vstupní napětí** | 230 V AC / 50 Hz |
+| **Typ zdroje** | Stabilizovaný síťový adaptér (do zásuvky) |
+| **Vstupní napětí a příkon** | 230 V AC / 50 Hz (max. 43 W) |
 | **Výstupní napětí (volitelné)** | 3 V / 4,5 V / 6 V / 7,5 V / 9 V / 12 V DC |
-| **Max. výstupní proud** | 1500 mA (1,5 A) |
+| **Max. výstupní proud** | 1,5 A (1500 mA) |
 | **Max. výstupní výkon** | 18 W |
